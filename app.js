@@ -1,6 +1,7 @@
+
 document.addEventListener("DOMContentLoaded", joke);
 
-document.getElementsByTagName("h1")[0].onclick = joke;
+document.getElementsByClassName("title-container")[0].onclick = joke;
 
 async function joke() {
     let config = {
